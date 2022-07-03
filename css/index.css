@@ -1,4 +1,14 @@
+body {
+    margin: 0;
+}
+
 .countdown {
-    background-image: url(/pictures/Nordalb.jpg);
-    padding: 15% 15%;
+    background-image: url(../pictures/Nordalb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 7.5%;
+    font-size: 100px;
 }
