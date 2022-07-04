@@ -1,0 +1,5 @@
+Wunschliste
+
+Ich hätte gern das erste Icon aus dem Bild als Icon der Website, also das, was oben am Tab dran ist.
+
+Ich möchte keine Millisekunden angezeigt haben, aber stattdessen soll "Tage", "Stunden", "Minuten" und "Sekunden" ausgeschrieben werden.
