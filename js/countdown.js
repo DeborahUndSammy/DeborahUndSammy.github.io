@@ -34,12 +34,10 @@ var x = setInterval(function() {
   } else {
     var seconds = Math.floor(distance / 1000);
   }
-  
-  var miliseconds = distance;
 
   // Display the result in the element with id="demo"
   document.getElementById("cdtm").innerHTML = days + "d<br>" + hours + "h<br>"
-  + minutes + "m<br>" + seconds + "s<br>" + miliseconds + "ms";
+  + minutes + "m<br>" + seconds + "s";
 
   // If the count down is finished, write some text
   if (distance < 0) {
