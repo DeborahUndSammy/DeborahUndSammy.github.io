@@ -36,8 +36,8 @@ var x = setInterval(function() {
   }
 
   // Display the result in the element with id="demo"
-  document.getElementById("cdtm").innerHTML = days + "d<br>" + hours + "h<br>"
-  + minutes + "m<br>" + seconds + "s";
+  document.getElementById("cdtm").innerHTML = days + " Tagen<br>" + hours + " Stunden<br>"
+  + minutes + " Minuten<br>" + seconds + " Sekunden";
 
   // If the count down is finished, write some text
   if (distance < 0) {
