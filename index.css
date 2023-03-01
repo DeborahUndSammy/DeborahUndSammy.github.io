@@ -1,0 +1,96 @@
+.flipdown {
+    position: relative;
+    margin: auto;
+}
+
+p1 {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 300%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+p2 {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 800%;
+    margin: auto;
+    padding-top: 18%;
+    padding-bottom: 20%;
+}
+
+p3 {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 400%;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+
+#eins{
+    background-image: url(weizn.jpg);
+    background-size:cover;
+    margin-bottom: 1%;
+    
+}
+
+#zwo{
+    background-image: url(wald.jpg);
+    color: white;
+    background-size:cover;
+    margin-top: 1%;
+}
+
+body{
+    margin: 0;
+    background-color: darkslategray;
+    
+}
+
+.programm {
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+#left {
+    float: left;
+    width: 50%;
+}
+
+#left .pos1 {
+    float: right;
+    text-align: right;
+}
+
+
+#right{
+    float: right;
+    width: 50%;
+}
+
+#right .pos1{
+    float: left;
+    text-align: left;
+}
+
+.pos1 {
+    display: block;
+    width: 80%;
+    padding: 5% 10%;
+}
+
+.kirche::after{content: url();}
+.kuchen::after{content: url();}
+.mensch::after{content:url(icons/icons8-benutzer-96.png);}
+.party::after{content: url();}
+.geschenk::after{content: url();}
+.brief::after{content: url();}
