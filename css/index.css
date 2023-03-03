@@ -36,14 +36,14 @@ p3 {
 
 
 #eins{
-    background-image: url(/images/weizn.jpg);
+    background-image: url(images/weizn.jpg);
     background-size:cover;
     margin-bottom: 1%;
     
 }
 
 #zwo{
-    background-image: url(/images/wald.jpg);
+    background-image: url(images/wald.jpg);
     color: white;
     background-size:cover;
     margin-top: 1%;
