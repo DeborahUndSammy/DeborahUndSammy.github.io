@@ -90,7 +90,7 @@ body{
 
 .kirche::after{content: url();}
 .kuchen::after{content: url();}
-.mensch::after{content:url(icons/icons8-benutzer-96.png);}
+.mensch::after{content:url();}
 .party::after{content: url();}
 .geschenk::after{content: url();}
 .brief::after{content: url();}
