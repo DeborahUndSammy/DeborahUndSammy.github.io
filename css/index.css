@@ -38,7 +38,7 @@ p3 {
 #eins{
     background-image: url(images/weizn.jpg);
     background-size:cover;
-    -webkit-text-stroke: 2px white;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     margin-bottom: 1%;
     
 }
@@ -46,7 +46,7 @@ p3 {
 #zwo{
     background-image: url(images/wald.jpg);
     color: white;
-    -webkit-text-stroke: 2px black;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     background-size:cover;
     margin-top: 1%;
 }
