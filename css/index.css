@@ -39,13 +39,27 @@ p2 {
 }
 
 p3 {
+    color: white;
     display: block;
-    text-align: center;
-    width: 100%;
+    text-align: left;
+    width: 97.5%;
     font-size: 400%;
     margin: auto;
     padding-top: 5%;
+    padding-bottom: 2%;
+    margin-left: 2.5%;
+}
+
+p4 {
+    color: white;
+    display: block;
+    text-align: right;
+    width: 97.5%;
+    font-size: 400%;
+    margin: auto;
+    padding-top: 0%;
     padding-bottom: 5%;
+    margin-right: 2.5%;
 }
 
 
@@ -80,33 +94,34 @@ body{
 #left {
     float: left;
     width: 50%;
-}
-
-#left .pos1 {
-    float: right;
     text-align: right;
-}
-
-
-#right{
-    float: right;
-    width: 50%;
-}
-
-#right .pos1{
-    float: left;
-    text-align: left;
-}
-
-.pos1 {
     display: block;
     width: 80%;
     padding: 5% 10%;
 }
 
-.kirche::after{content: url();}
-.kuchen::after{content: url();}
-.mensch::after{content:url();}
-.party::after{content: url();}
-.geschenk::after{content: url();}
-.brief::after{content: url();}
+#right {
+    float: right;
+    width: 50%;
+    text-align: left;
+    display: block;
+    width: 80%;
+    padding: 5% 10%;
+}
+
+#left:hover {
+    width: calc(100/6);
+}
+
+#right:hover {
+    background-color: aqua;
+}
+
+
+
+.kirche::after{content: url();vertical-align:middle;margin-left:2%;display:inline-block;}
+.kuchen::after{content: url();vertical-align:middle;margin-left:2%;display:inline-block;}
+.mensch::after{content:url();vertical-align:middle;margin-left:2%;display:inline-block;}
+.party::after{content: url();vertical-align:middle;margin-right:2%;display:inline-block;}
+.geschenk::after{content: url();vertical-align:middle;margin-right:2%;display:inline-block;}
+.brief::after{content: url();vertical-align:middle;margin-right:2%;display:inline-block;}
