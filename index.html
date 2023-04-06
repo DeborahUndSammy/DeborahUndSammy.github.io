@@ -18,10 +18,12 @@
         <p2>Deborah & Sammy</p2>
         <script src="js/index.js"></script>
     </section>
+
     <p3>Gott aber vermag euch jede Gnade überreichlich zu geben, damit ihr in allem allezeit alle Genüge habt und überreich seid zu jedem guten Werk.</p3>
     <p4>2. Korinther 9:8</p4>
+
     <section id="zwo">
-        <div id="programm" class="programm">
+        <!-- <div id="programm" class="programm">
             <div id="left">
                 <div class="punkt pos1 kirche">Kirchliche Traung</div>
                 <div class="punkt pos1 kuchen">Salat- und Kuchen-Anmeldung</div>
@@ -33,6 +35,73 @@
                 <div class="punkt pos1 geschenk">Geschenkinspiration</div>
                 <div class="punkt pos1 brief">Fragen?</div>
             </div>
+        </div> -->
+
+        <!-- Tab links -->
+        <div class="tab">
+            <button class="tablinks active" onclick="openCity(event, 'kirche')">Kirche</button>
+            <button class="tablinks" onclick="openCity(event, 'kuchen')">Kuchen</button>
+            <button class="tablinks" onclick="openCity(event, 'mensch')">Program</button>
+            <button class="tablinks" onclick="openCity(event, 'party')">Fest</button>
+            <button class="tablinks" onclick="openCity(event, 'geschenk')">Geschenk</button>
+            <button class="tablinks" id="fragen" onclick="openCity(event, 'brief')">Fragen?</button>
+            
+        </div>
+        
+        <!-- Tab content -->
+        <div id="kirche" class="tabcontent">
+            <h3>Kirchliche Trauung</h3>
+            <p>London is the capital city of England.</p>
+        </div>
+        
+        <div id="kuchen" class="tabcontent">
+            <h3>Salat- und Kuchen-Anmeldung</h3>
+            <p>Paris is the capital of France.</p>
+        </div>
+        
+        <div id="mensch" class="tabcontent">
+            <h3>Programmbeiträge</h3>
+            <p>Tokyo is the capital of Japan.</p>
+        </div>
+
+        <div id="party" class="tabcontent">
+            <h3>Der Rest Vom Fest</h3>
+            <p>Tokyo is the capital of Japan.</p>
+        </div>
+
+        <div id="geschenk" class="tabcontent">
+            <h3>Geschenkinspiration</h3>
+            <p>Tokyo is the capital of Japan.</p>
+        </div>
+
+        <div id="brief" class="tabcontent">
+            <h3>Fragen?</h3>
+            <p>Tokyo is the capital of Japan.</p>
+        </div>
+        <script>
+            if (window.location.href.includes("fragen")) {
+                var mybtn = document.getElementById("fragen");
+                mybtn.click();
+            } else {
+                var mybtn = document.getElementsByClassName("tablinks")[0];
+                mybtn.click();
+            }
+        </script>
+    </section>
+
+    <section id="drei">
+        <div id="youtube">
+            <h>Youtube</h>
+            <iframe src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL36lMmZ2fEYyxoNfTJ-8wg0PCGm501Zd5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id="spotify">
+            <h>Spotify</h>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/63BbwSluwmmJDDJKswNvjs?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <div id="ohnetechnik">
+            <h>Ohne Technik</h>
+            <li>
+            </li>
         </div>
     </section>
 </body>
