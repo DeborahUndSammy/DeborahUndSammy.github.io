@@ -14,8 +14,6 @@
 }
 
 html {
-    padding: 0%;
-    margin: 0;
     font-family: SimpleHandmade;
 }
 
@@ -23,7 +21,7 @@ p1 {
     display: block;
     text-align: center;
     width: 100%;
-    font-size: 600%;
+    font-size: 1200%;
     margin: auto;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -49,10 +47,11 @@ p3 {
     display: block;
     text-align: left;
     width: 97.5%;
-    font-size: 400%;
+    font-size: 500%;
+    line-height:110%;
     margin: auto;
     padding-top: 5%;
-    padding-bottom: 2%;
+    padding-bottom: 7.5%;
     margin-left: 2.5%;
 }
 
@@ -61,7 +60,7 @@ p4 {
     display: block;
     text-align: right;
     width: 97.5%;
-    font-size: 400%;
+    font-size: 500%;
     margin: auto;
     padding-top: 0%;
     padding-bottom: 5%;
@@ -74,6 +73,7 @@ p4 {
     background-image: url(images/weizn.jpg);
     background-size:cover;
     margin-bottom: 1%;
+    margin-top: 0;
     
 }
 
@@ -83,17 +83,16 @@ p4 {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     background-size:cover;
     margin-top: 1%;
-    height: 500px;
+    height: auto;
 }
 
 #drei{
     color: white;
-    display: flex;
+    display: block;
 }
 
 body{
     margin: 0;
-    padding: 0;
     background-color: darkslategray;
     
 }
@@ -131,7 +130,7 @@ body{
   
   /* Style the buttons that are used to open the tab content */
   .tab button {
-    font-size: 50px;
+    font-size: 500%;
     font-family: SimpleHandmade;
     background-color: inherit;
     float:left;
@@ -139,7 +138,7 @@ body{
     outline: none;
     cursor: pointer;
     width: calc(100%/6);
-    /*padding: 1.5% 2%;*/
+    padding: 2% 0%;
     transition: 0.3s;
   }
   
@@ -155,23 +154,16 @@ body{
   
   /* Style the tab content */
   .tabcontent {
-    font-size: 25px;
+    height: fit-content;
+    font-size: 400%;
     display: none;
-    padding: 6px 12px;
+    padding: 1% 5%;
     border: 1px solid #ccc;
     border-top: none;
     background-color: grey;
   }
 
 
-/* 
-.kirche  {vertical-align: middle;}
-.kuchen  {vertical-align: middle;}
-.mensch  {vertical-align: middle;}
-.party   {vertical-align: middle;}
-.geschenk{vertical-align: middle;}
-.brief   {vertical-align: middle;}
-*/
 
 .kirche::after{content: url(../icons/Kirche.png);vertical-align:middle;margin-left:2%;display:inline-block;}
 .kuchen::after{content: url();vertical-align:middle;margin-left:2%;display:inline-block;}
@@ -182,36 +174,35 @@ body{
 
 
 #drei div {
-    width: calc(100%/3);
-    float: left;
-    display:block;
+    width: 100%;
     background-color: rgb(27, 59, 41);
     color: white;
     text-align: center;
     padding-top: 2.5%;
+    height: 500px;
 }
 
 #drei div iframe {
-    width: auto;
+    width: 80%;
     padding-top: 5%;
-    height: 200px;
+    height: 80%;
 }
 
 #drei div li {
     width: auto;
     padding-top: 5%;
-    height: 200px;
+    height: 500px;
     list-style:none;
 }
 
 #drei div h {
-    display: block;
     font-size: 50px;
+    display: block;
 }
 
 /* The alert message box */
 .alert {
-    font-size: 200%;
+    font-size: 450%;
     padding: 20px;
     background-color: #f44336; /* Red */
     color: white;
@@ -224,13 +215,13 @@ body{
     color: white;
     font-weight: bold;
     float: right;
-    font-size: 150%;
+    font-size: 200%;
     line-height: 20px;
     cursor: pointer;
     transition: 0.3s;
     padding: 0;
     margin-bottom: 0%;
-    margin-top: 0.5%;
+    margin-top: 6.5%;
   }
   
   /* When moving the mouse over the close button */
@@ -238,8 +229,8 @@ body{
     color: black;
   }
 
-#impressum {
-    padding: 1.5% 5%;
+  #impressum {
+    padding: 5% 5%;
     border-top: black;
     background-color:darkslategray;
     color: white;
