@@ -163,6 +163,11 @@ body{
     background-color: grey;
   }
 
+  .tabcontent a{
+    color: white;
+    font-weight: normal;
+  }
+
 
 
 .kirche::after{content: url(../icons/Kirche.png);vertical-align:middle;margin-left:2%;display:inline-block;}
